@@ -1,0 +1,8 @@
+def prime(n):
+    for e in range(2,n+1):
+        for d in range(2,e):
+            if e%d==0:
+                break
+        else:
+            print(e)
+prime(100)
